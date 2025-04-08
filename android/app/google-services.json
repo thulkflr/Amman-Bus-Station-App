@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "457000743468",
+    "firebase_url": "https://amman-bef7c-default-rtdb.firebaseio.com",
+    "project_id": "amman-bef7c",
+    "storage_bucket": "amman-bef7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457000743468:android:2195586408781369569789",
+        "android_client_info": {
+          "package_name": "com.example.ammanbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457000743468-9348caiia7i0n10s87uifck4rhbc9iq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlKuRQKsJ2fSJlbk1gohKaKeRZVVKafA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457000743468-9348caiia7i0n10s87uifck4rhbc9iq5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457000743468-f9fgd7etcddhgpr05kisscgqd1ot03l5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ammanbus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
