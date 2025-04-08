@@ -42,9 +42,9 @@ class _PaymentModelState extends State<PaymentModel> {
   bool? isCvvFocused = false;
    final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final TwilioFlutter twilioFlutter = TwilioFlutter(
-    accountSid: 'AC64b0082f8b8523861d605840315afee4',
-    authToken: 'fe63b3b2fe1542aba1b8dd433144fc6b',
-    twilioNumber: '+13345132255',
+    accountSid: 'Your Session ID from Twilio',
+    authToken: 'Token number from Twilio',
+    twilioNumber: 'Twilio Number',
   );
 
   @override
@@ -159,7 +159,7 @@ class _PaymentModelState extends State<PaymentModel> {
                                         try {
                                           await _firestore.collection('payment').add(paymentData);
                                           isReserved=true;
-                                        await sendTripInfoMessage("+962797291525");
+                                        await sendTripInfoMessage("your  mobile number");
 
                                           ScaffoldMessenger.of(context).showSnackBar(
                                             const SnackBar(content: Text('Payment confirmed, check your SMS')),
