@@ -74,6 +74,32 @@ You can use the [`flutter_dotenv`](https://pub.dev/packages/flutter_dotenv) pack
 ```yaml
 dependencies:
   flutter_dotenv: ^5.0.2
+  cupertino_icons: ^1.0.6
+  awesome_dialog: ^3.2.0
+  dropdown_search_list: ^0.0.3
+  shared_preferences: ^2.2.2
+  geolocator: ^9.0.2
+  firebase_core: ^2.27.1
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.6.10
+  firebase_messaging: ^14.7.20
+  firebase_auth: ^4.17.9
+  google_sign_in: ^6.2.1
+  google_fonts:
+  flutter_credit_card: ^4.0.1
+  qr_flutter: ^4.1.0
+  flutter_bloc: ^8.1.2
+  flutter_map: ^3.1.0
+  geocoding_resolver: ^0.0.3+2
+  georouter: ^0.0.1
+  latlong2: ^0.8.1
+  auto_size_text: ^3.0.0
+  intl: ^0.18.1
+  flutter_riverpod: ^2.3.6
+  flutter_stripe: ^10.1.1
+  provider: ^6.1.2
+  mailer: ^6.1.0
+  twilio_flutter: ^0.0.9
 ```
 ## 📄 Presentation
 You can view or download the PDF presentation for this project here: 
